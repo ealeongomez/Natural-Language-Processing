@@ -1,0 +1,19 @@
+[project]
+name = "natural-language-processing"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "langchain>=1.1.0",
+    "langchain-anthropic>=1.2.0",
+    "langchain-openai>=1.1.0",
+    "langgraph>=1.0.4",
+]
+
+[dependency-groups]
+dev = [
+    "grandalf>=0.8",
+    "ipykernel>=7.1.0",
+    "langgraph-cli[inmem]>=0.4.7",
+]
