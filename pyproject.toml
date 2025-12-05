@@ -9,6 +9,7 @@ dependencies = [
     "langchain-anthropic>=1.2.0",
     "langchain-openai>=1.1.0",
     "langgraph>=1.0.4",
+    "python-dotenv>=1.0.0",  # ← Agregar esto
 ]
 
 [dependency-groups]
@@ -17,3 +18,8 @@ dev = [
     "ipykernel>=7.1.0",
     "langgraph-cli[inmem]>=0.4.7",
 ]
+
+# Remover la sección de setuptools o cambiarla a:
+[tool.setuptools.packages.find]
+where = ["LangGraph"]  # ← Cambiar a "LangGraph"
+include = ["src*"]

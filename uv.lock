@@ -861,6 +861,7 @@ dependencies = [
     { name = "langchain-anthropic" },
     { name = "langchain-openai" },
     { name = "langgraph" },
+    { name = "python-dotenv" },
 ]
 
 [package.dev-dependencies]
@@ -876,6 +877,7 @@ requires-dist = [
     { name = "langchain-anthropic", specifier = ">=1.2.0" },
     { name = "langchain-openai", specifier = ">=1.1.0" },
     { name = "langgraph", specifier = ">=1.0.4" },
+    { name = "python-dotenv", specifier = ">=1.0.0" },
 ]
 
 [package.metadata.requires-dev]
