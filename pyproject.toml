@@ -5,13 +5,14 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
-    "langchain>=1.1.0",
-    "langchain-anthropic>=1.2.0",
-    "langchain-openai>=1.1.0",
-    "langgraph>=1.0.4",
-    "python-dotenv>=1.0.0",  # ← Agregar esto
+    "langchain>=0.3.0",
+    "langchain-community>=0.3.0",
+    "langchain-openai>=0.2.0",
+    "langchain-text-splitters>=0.3.0",
+    "faiss-cpu>=1.8.0",
+    "pypdf>=4.0.0",
+    "python-dotenv>=1.0.0",
 ]
-
 [dependency-groups]
 dev = [
     "grandalf>=0.8",
