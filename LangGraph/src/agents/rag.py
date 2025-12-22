@@ -1,8 +1,3 @@
-# ====================================================================================
-# RAG Agent - Similar al curso de Platzi pero usando FAISS local como Tool
-# Referencia: https://github.com/platzi/curso-agentes-langgraph
-# ====================================================================================
-
 # Libraries
 import os
 from dotenv import load_dotenv
@@ -102,7 +97,7 @@ class State(MessagesState):
 # Nodes
 # ====================================================================================
 
-def node_1(state: State):
+def conversation(state: State):
     """Nodo principal de conversación - Estilo Platzi"""
     new_state: State = {}
     history = state["messages"]
@@ -150,7 +145,7 @@ def should_continue(state: State):
 builder = StateGraph(State)
 
 # Agregar nodos
-builder.add_node("node_1", node_1)
+builder.add_node("node_1", conversation)
 builder.add_node("tools", tool_node)
 
 # Definir flujo

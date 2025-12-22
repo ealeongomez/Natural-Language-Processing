@@ -1,0 +1,160 @@
+# ===================================
+# Git
+# ===================================
+.gitignore
+
+# ===================================
+# Python
+# ===================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ===================================
+# Virtual Environments
+# ===================================
+venv/
+ENV/
+env/
+.venv
+env.bak/
+venv.bak/
+
+# ===================================
+# Environment Variables
+# ===================================
+.env
+.env.local
+.env.*.local
+*.env
+
+# ===================================
+# Jupyter Notebook
+# ===================================
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+*.ipynb_checkpoints/
+
+# ===================================
+# IDEs and Editors
+# ===================================
+# VSCode / Cursor
+.vscode/
+.cursor/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# ===================================
+# Operating System
+# ===================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# ===================================
+# Database Files
+# ===================================
+*.db
+*.sqlite
+*.sqlite3
+chroma_db/
+*.chroma
+
+# Vector stores / Embeddings cache
+faiss_cache/
+*.faiss
+*.index
+
+# ===================================
+# ML/AI Specific
+# ===================================
+# Model files (large files)
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.joblib
+*.pt
+*.pth
+*.onnx
+*.pb
+
+# Weights
+weights/
+checkpoints/
+*.ckpt
+
+# Datasets (uncomment if needed)
+# *.csv
+# *.parquet
+# data/
+# datasets/
+
+# Hugging Face cache
+.cache/
+huggingface/
+
+# LangGraph API files
+.langgraph_api/
+*.pckl
+
+# ===================================
+# Logs and Testing
+# ===================================
+*.log
+logs/
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# ===================================
+# Temporary Files
+# ===================================
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~.nib
+

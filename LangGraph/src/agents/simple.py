@@ -4,6 +4,10 @@
 
 # Basic libraries
 import random
+from dotenv import load_dotenv
+
+# Cargar variables de entorno
+load_dotenv()
 
 # LangGraph libraries
 from langgraph.graph import StateGraph, START, END
